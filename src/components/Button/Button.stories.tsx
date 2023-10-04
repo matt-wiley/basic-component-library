@@ -22,12 +22,133 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
   args: {
     label: 'Primary',
+    type: 'primary',
   },
 };
 
 export const Secondary: Story = {
   args: {
     label: 'Secondary',
+    type: 'secondary',
+  },
+};
+
+export const Tertiary: Story = {
+  args: {
+    label: 'Tertiary',
+    type: 'tertiary',
+  },
+};
+
+export const Danger: Story = {
+  args: {
+    label: 'Danger',
+    type: 'danger',
+  },
+};
+
+export const Warning: Story = {
+  args: {
+    label: 'Warning',
+    type: 'warning',
+  },
+};
+
+export const Success: Story = {
+  args: {
+    label: 'Success',
+    type: 'success',
+  },
+};
+
+export const Info: Story = {
+  args: {
+    label: 'Info',
+    type: 'info',
+  },
+};
+
+export const Light: Story = {
+  args: {
+    label: 'Light',
+    type: 'light',
+  },
+};
+
+export const Dark: Story = {
+  args: {
+    label: 'Dark',
+    type: 'dark',
+  },
+};
+
+export const Link: Story = {
+  args: {
+    label: 'Link',
+    type: 'link',
+  },
+};
+
+export const None: Story = {
+  args: {
+    label: 'None',
+    type: 'none',
+  },
+};
+
+export const Disabled: Story = {
+  args: {
+    label: 'Disabled',
+    disabled: true,
+  },
+};
+
+export const ExtraSmall: Story = {
+  args: {
+    label: 'Extra Small',
+    size: 'xs',
+  },
+};
+
+export const Small: Story = {
+  args: {
+    label: 'Small',
+    size: 'sm',
+  },
+};
+
+export const Medium: Story = {
+  args: {
+    label: 'Medium',
+    size: 'md',
+  },
+};
+
+export const Large: Story = {
+  args: {
+    label: 'Large',
+    size: 'lg',
+  },
+};
+
+export const ExtraLarge: Story = {
+  args: {
+    label: 'Extra Large',
+    size: 'xl',
+  },
+};
+
+export const WithTooltip: Story = {
+  args: {
+    label: 'With Tooltip',
+    tooltip: 'This is a tooltip',
+  },
+};
+
+export const WithClickHandler: Story = {
+  args: {
+    label: 'With Click Handler',
+    onClick: () => alert('Clicked!'),
   },
 };
 
