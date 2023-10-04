@@ -6,7 +6,7 @@
     "rollup": "rollup -c",
     "test": "jest",
     "tailwind": "tailwindcss -i ./src/tailwind-main.css -o ./src/tailwind.css --watch",
-    "sb": "npm run tailwind & storybook dev -p 6006",
+    "sb": "storybook dev -p 6006",
     "build-sb": "storybook build"
   },
   "author": "",
