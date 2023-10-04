@@ -1,6 +1,5 @@
 import React from 'react';
-import '../../styles/index.css'
-
+import './Button.css';
 
 interface IButtonProps {
   label: string;
