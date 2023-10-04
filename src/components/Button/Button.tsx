@@ -1,7 +1,6 @@
 import React from 'react';
-import './Button.css';
 
-interface IButtonProps {
+export interface IButtonProps {
   label: string;
 }
 
@@ -11,7 +10,7 @@ const Button = (props: IButtonProps) => {
 
   return (
     <div>
-      <button>{label}</button>
+      <button className='rounded bg-blue-400 text-white text-md py-1 px-3'>{label}</button>
     </div>
   );
 };
