@@ -24,7 +24,8 @@ export const TextInputWithValidContent: Story = {
   args: {
     type: 'text',
     state: InputState.Valid,
-    label: 'Username'
+    label: 'Username',
+    value: 'johndoe321'
   },
 };
 
@@ -32,7 +33,8 @@ export const TextInputWithInvalidContent: Story = {
   args: {
     type: 'text',
     state: InputState.Invalid,
-    label: 'Username'
+    label: 'Username',
+    value: 'asdflkasjdfasdlkfj'
   },
 };
 
@@ -41,5 +43,21 @@ export const DisabledTextInput: Story = {
     type: 'text',
     state: InputState.Disabled,
     label: 'Username'
+  },
+};
+
+export const EmailInput: Story = {
+  args: {
+    type: 'text',
+    label: 'Email',
+    placeholder: 'someone@example.com'
+  },
+};
+
+export const UrlInput: Story = {
+  args: {
+    type: 'text',
+    label: 'Url',
+    placeholder: 'https://example.com'
   },
 };
